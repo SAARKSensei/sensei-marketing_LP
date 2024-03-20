@@ -5,6 +5,9 @@ import { useEffect, useState } from "react";
 import HeroSection from "@/components/HeroSection";
 import Purpose from "@/components/Purpose";
 import BackToTop from "@/components/BackToTop";
+import Pricing from "@/components/Pricing";
+import OffersnWorksCont from "@/components/OffersnWorksCont";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -29,6 +32,9 @@ export default function Home() {
       <BackToTop scrolled={scrolled} />
       <HeroSection />
       <Purpose />
+      <Pricing />
+      <OffersnWorksCont />
+      <Footer />
     </main>
   );
 }
