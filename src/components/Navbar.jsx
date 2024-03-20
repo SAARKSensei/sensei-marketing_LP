@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import React from 'react'
 import SenseiLogo from "../Images/Main logo.svg"
+import Button from './Button'
 
 const Navbar = () => {
     return (
@@ -20,7 +21,7 @@ const Navbar = () => {
             </div>
             <div className='flex gap-3 h-[59px] items-center font-Nunito'>
                 <button className='rounded-[40px] px-8 py-4 border-2 border-[#F8BF3B] text-[#F8BF3B] text-xl font-bold'>Login</button>
-                <button className='rounded-[40px] px-8 py-4 bg-[#F8BF3B] text-[#2C3D68] font-bold'>Buy NOW</button>
+                <Button text={"Buy NOW"} />
             </div>
         </div>
     )

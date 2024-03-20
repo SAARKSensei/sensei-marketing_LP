@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Button from './Button'
 
 import Parenting from "../Images/parenting.svg"
 import Modules from "../Images/modules.svg"
@@ -11,7 +12,6 @@ import Banner1 from "../Images/banner1.svg"
 import Banner2 from "../Images/banner2.svg"
 import Banner3 from "../Images/banner3.svg"
 import OrangeTick from "../Images/orangetick.svg"
-import PricingButtons from './PricingButtons'
 import WhiteTick from "../Images/whitetick.svg"
 import WhiteCross from "../Images/whitecross.svg"
 
@@ -95,7 +95,7 @@ const Pricing = () => {
                                     className='mb-[28px]'
                                 />
                             </div>
-                            <PricingButtons text={"Refer & Earn"} />
+                            <Button text={"Refer & Earn"} />
                         </div>
                     </div>
                     <div className=' w-[240px] h-[637px] relative'>
@@ -131,7 +131,7 @@ const Pricing = () => {
                                     className='mb-[28px]'
                                 />
                             </div>
-                            <PricingButtons text={"Watch a DEMO"} />
+                            <Button text={"Watch a DEMO"} />
                         </div>
                     </div>
                     <div className=' w-[240px] h-[637px] relative'>
@@ -171,7 +171,7 @@ const Pricing = () => {
                                     className='mb-[28px]'
                                 />
                             </div>
-                            <PricingButtons text={"Buy NOW"} />
+                            <Button text={"Buy NOW"} color={"#fff"} />
                         </div>
                     </div>
                 </div>

@@ -16,6 +16,7 @@ import BigSmile from "../Images/bigsmile.svg"
 import DropdownArrow from "../Images/downarrow.svg"
 import Portal from "../Images/portal.svg"
 import Phones from "../Images/phones.png"
+import Button from './Button';
 
 const HeroSection = () => {
     return (
@@ -93,7 +94,7 @@ const HeroSection = () => {
                                 <input type="tel" name="phoneNumber" className='w-full outline-none bg-white' />
                             </span>
                         </div>
-                        <button className='rounded-[40px] px-8 py-4 bg-[#F8BF3B] text-[#2C3D68] font-Nunito font-bold'>Buy NOW</button>
+                        <Button text={"Buy NOW"} />
                     </div>
                 </div>
                 <div className='w-[445px] h-[451px] relative'>
