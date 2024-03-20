@@ -6,6 +6,7 @@ import HeroSection from "@/components/HeroSection";
 import Purpose from "@/components/Purpose";
 import BackToTop from "@/components/BackToTop";
 import Pricing from "@/components/Pricing";
+import OffersnWorksCont from "@/components/OffersnWorksCont";
 
 export default function Home() {
 
@@ -31,6 +32,7 @@ export default function Home() {
       <HeroSection />
       <Purpose />
       <Pricing />
+      <OffersnWorksCont />
     </main>
   );
 }

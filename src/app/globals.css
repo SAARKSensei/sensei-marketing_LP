@@ -42,6 +42,10 @@ body {
   background: linear-gradient(to bottom, #F8BF3B, #FF8B13, #EF5F3D);
 }
 
+.gradient-offernworks-tobottom {
+  background: linear-gradient(to bottom, #2C3D68, #0764A7);
+}
+
 .gradient-toright {
   background: linear-gradient(to right, #F8BF3B, #FF8B13, #EF5F3D);
   -webkit-text-fill-color: transparent;
