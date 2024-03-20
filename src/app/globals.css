@@ -70,6 +70,7 @@ body {
 
 .fadeInBounceOut {
   animation: fadeInBounceOut 2s ease-in-out infinite;
+  animation-delay: 5s;
 }
 
 @keyframes fadeInBounceOut {
@@ -77,23 +78,24 @@ body {
     opacity: 0;
   }
 
-  5% {
+  25% {
+    transform: translateY(-25%);
+    animation-duration: 5s;
     opacity: 1;
   }
 
-  25% {
-    transform: translateY(-50px);
-  }
-
-  50% {
-    transform: translateY(-100px);
-  }
-
   75% {
-    transform: translateY(-50px);
+    transform: translateY(-100px);
+    opacity: 1;
   }
 
   100% {
     opacity: 0.2;
+    transform: translateY(-50px);
+  }
+
+  75% {
+    transform: translateY(-50px);
+    opacity: 1;
   }
 }

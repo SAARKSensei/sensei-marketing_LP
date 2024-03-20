@@ -7,7 +7,7 @@ const Button = ({ text, color }) => {
     let bgcolor;
 
     if (color) {
-        bgcolor = `bg-[${color}]`
+        bgcolor = `bg-[#fff]`
     } else {
         bgcolor = "bg-[#F8BF3B]"
     }
