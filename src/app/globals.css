@@ -70,7 +70,6 @@ body {
 
 .fadeInBounceOut {
   animation: fadeInBounceOut 2s ease-in-out infinite;
-  animation-delay: 5s;
 }
 
 @keyframes fadeInBounceOut {
